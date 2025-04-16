@@ -1,10 +1,5 @@
 # milvus-lite-error
 
-
-docker compose build milvus
-docker compose up milvus
-
-
 ```
 docker compose build milvus
 Compose can now delegate builds to bake for better performance.
