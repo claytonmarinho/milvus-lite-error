@@ -4,6 +4,9 @@
 docker --version
 Docker version 28.0.4, build b8034c0
 
+docker compose version
+Docker Compose version v2.34.0-desktop.1
+
 system_profiler SPHardwareDataType
 Hardware:
 
