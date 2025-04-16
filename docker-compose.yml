@@ -1,0 +1,9 @@
+
+services:
+  milvus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/app/data
+    command: ["python", "/app/main.py"]
