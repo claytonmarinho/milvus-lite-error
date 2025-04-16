@@ -1,6 +1,29 @@
 # milvus-lite-error
 
 ```
+docker --version
+Docker version 28.0.4, build b8034c0
+
+system_profiler SPHardwareDataType
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac mini
+      Model Identifier: Macmini9,1
+      Model Number: Z12N000G0LL/A
+      Chip: Apple M1
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 16 GB
+      System Firmware Version: 11881.101.1
+      OS Loader Version: 11881.101.1
+      Serial Number (system):
+      Hardware UUID:
+      Provisioning UDID:
+      Activation Lock Status: Enabled
+```
+
+```
 docker compose build milvus
 Compose can now delegate builds to bake for better performance.
  To do so, set COMPOSE_BAKE=true.
